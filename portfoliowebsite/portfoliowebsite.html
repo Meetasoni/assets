@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeetaSoni-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: rgb(2, 6, 23);
+color: white;
+font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(8, 8, 91);
+}
+nav ul{
+    display: flex;
+    justify-content:center ;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(116, 116, 192);
+    font-size: 1.08rem;
+}
+main hr{
+    border: 0;
+    background: blueviolet;
+    height:1.2px;
+    margin: 40px 84px;
+
+}
+.left{
+    font-size: 2rm;
+   
+}
+.firstSection{
+    display:flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items:center;
+}
+.firstSection > div{
+    width:80%;
+    
+}
+.leftSection{
+
+font-size: 3rem;
+}
+.rightSection{
+         width: 88%;
+         margin: 50px 0;
+}
+.purple{
+    color: blueviolet;
+}
+#element{
+    color:blueviolet;
+}
+.secondsection{
+    max-width: 80vm;
+     margin: auto;
+     height: 80vm;
+}
+.secondsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+}
+/* .secondsection .vertical{
+    height: 93px;
+        width: 1px;
+        background-color:white;
+        display:flex;
+        margin: 0 100px;
+        
+
+} */
+footer{
+    background-color: rgb(70, 65, 66);
+    height:233px;
+
+}
+.footer{
+    display:flex;
+    margin:  23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style:none;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class=""left">Meeta's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+           <div class="leftSection">Hi! My name is <span class="purple">Meeta Soni</span> 
+            <div> And I am a Passionate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+           </div>
+<div class="rightSection">
+    <img src="devfinal.png" alt style="
+    width: 80%;
+    ">
+        
+        
+</div>
+        </section>
+        <section class="secondsection">
+            <span class="text-grey">What I have done</span>
+<h1>Work Experience</h1>
+<div class="box">
+    <div class="vertical">
+        
+    </div>
+</div>
+
+        </section>
+    </main> 
+     <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Meeta's Developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>contact </li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+     </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', ' DevOps engineer.', 'Competitive Programmer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
